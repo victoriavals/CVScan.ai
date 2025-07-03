@@ -1,0 +1,13 @@
+[project]
+name = "cvscan-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "docx2txt>=0.9",
+    "google-generativeai>=0.8.5",
+    "pypdf2>=3.0.1",
+    "python-dotenv>=1.1.1",
+    "streamlit>=1.46.1",
+]
