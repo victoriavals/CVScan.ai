@@ -117,13 +117,6 @@ CVScan.ai/
 └── README.md       # This file
 ```
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 🆘 Support
 
@@ -143,5 +136,3 @@ If you encounter any issues or have questions:
 - [ ] ATS compatibility scoring
 
 ---
-
-**Made with ❤️ using Streamlit and Google Gemini AI**
