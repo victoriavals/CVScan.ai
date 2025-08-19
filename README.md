@@ -25,7 +25,8 @@ The AI can analyze your CV across multiple dimensions:
 
 ### Prerequisites
 
-- Python 3.8 or higher
+- Python 3.12 or higher
+- [uv](https://docs.astral.sh/uv/) package manager
 - Google Gemini API key
 
 ### Installation
@@ -36,9 +37,9 @@ The AI can analyze your CV across multiple dimensions:
    cd CVScan.ai
    ```
 
-2. **Install dependencies**
+2. **Install dependencies using uv**
    ```bash
-   pip install -r requirements.txt
+   uv sync
    ```
 
 3. **Set up environment variables**
@@ -49,7 +50,7 @@ The AI can analyze your CV across multiple dimensions:
 
 4. **Run the application**
    ```bash
-   streamlit run main.py
+   uv run streamlit run main.py
    ```
 
 5. **Open your browser**
@@ -57,7 +58,7 @@ The AI can analyze your CV across multiple dimensions:
 
 ## 📋 Requirements
 
-The project uses the following key dependencies:
+The project uses the following key dependencies (managed by uv):
 
 - `streamlit` - Web application framework
 - `google-generativeai` - Google Gemini AI integration
@@ -102,8 +103,8 @@ To use this application, you'll need a Google Gemini API key:
 ```
 CVScan.ai/
 ├── main.py          # Main application file
-├── pyproject.toml   # Project configuration
-├── requirements.txt  # Python dependencies
+├── pyproject.toml   # Project configuration and dependencies
+├── uv.lock          # Lock file for reproducible builds
 ├── .env            # Environment variables (create this)
 └── README.md       # This file
 ```
