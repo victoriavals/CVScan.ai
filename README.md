@@ -12,6 +12,14 @@ CVScan.ai is an intelligent application that uses Google's Gemini AI to provide 
 - **Instant Results**: Get comprehensive feedback in seconds
 - **User-Friendly Interface**: Clean, intuitive Streamlit web interface
 
+## 🚀 Live Demo
+
+**Try CVScan.ai right now!** 
+
+🌐 **[https://cvscanai.streamlit.app/](https://cvscanai.streamlit.app/)**
+
+Upload your CV and experience AI-powered feedback instantly. No installation required!
+
 ## 🎯 Focus Areas
 
 The AI can analyze your CV across multiple dimensions:
