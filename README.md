@@ -122,7 +122,7 @@ CVScan.ai/
 
 If you encounter any issues or have questions:
 
-1. Check the [Issues](https://github.com/yourusername/CVScan.ai/issues) page
+1. Check the [Issues](https://github.com/victoriavals/CVScan.ai/issues) page
 2. Create a new issue with detailed information
 3. Include your Python version and any error messages
 
